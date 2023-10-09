@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshay kumar - Personal Website</title>
+    <style>
+       
+        :root {
+            --light-blue: #5bc0de;
+            --yellow: #f0ad4e;
+            --light-red: #d9534f;
+        }
+
+      
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: var(--light-blue);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: var(--yellow);
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin: 20px 0;
+        }
+
+        .highlight {
+            color: var(--light-red);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lakshay kumar</h1>
+        <h2>Web Developer</h2>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Welcome to my personal website! I'm a web developer passionate about creating beautiful and functional websites.
+            <span class="highlight">My goal is to make the web a better place</span> through clean and user-friendly designs.
+        </p>
+    </section>
+
+    <section>
+        <h2>My Strengths</h2>
+        <ul>
+            <li>Front-end Development</li>
+            <li>Responsive Design</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>...</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>My Interests</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>UI/UX Design</li>
+            <li>Technology</li>
+            <li>Cinema</li>
+        </ul>
+    </section>
+</body>
+</html>
